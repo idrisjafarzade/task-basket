@@ -1,0 +1,60 @@
+.login {
+  .login-button {
+    font-size: 20px;
+    border: none;
+
+    &:hover {
+      background-color: rgb(10, 164, 202);
+    }
+  }
+}
+.icon-wrapper {
+  position: relative;
+  span {
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    padding: 3px;
+    border-radius: 50%;
+  }
+}
+
+.container {
+  margin-top: 100px;
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .cards {
+      border: 1px solid grey;
+      .add-basket {
+        border: none;
+        margin-bottom: 20px;
+        &:hover {
+          color: white;
+          background-color: rgb(10, 164, 202);
+        }
+      }
+      .image {
+        width: auto;
+        height: 300px;
+        img {
+          width: auto;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+.shopping-card-list{
+  background-color: rgb(56, 50, 50);
+  color: black; 
+    img{
+      width: 50px;
+      height: 25px;
+    }
+}

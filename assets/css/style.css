@@ -1,0 +1,73 @@
+.login .login-button {
+  font-size: 20px;
+  border: none;
+}
+
+.login .login-button:hover {
+  background-color: #0aa4ca;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.icon-wrapper span {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.container .row .cards {
+  border: 1px solid grey;
+}
+
+.container .row .cards .add-basket {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.container .row .cards .add-basket:hover {
+  color: white;
+  background-color: #0aa4ca;
+}
+
+.container .row .cards .image {
+  width: auto;
+  height: 300px;
+}
+
+.container .row .cards .image img {
+  width: auto;
+  height: 300px;
+}
+
+.shopping-card-list {
+  background-color: #383232;
+  color: black;
+}
+
+.shopping-card-list img {
+  width: 50px;
+  height: 25px;
+}
